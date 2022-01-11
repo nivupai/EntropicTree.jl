@@ -6,6 +6,13 @@ CurrentModule = EntropicTree
 
 Documentation for [EntropicTree](https://github.com/nivupai/EntropicTree.jl).
 
+##  Canonical Reporesentations
+TBD
+
+
+```@contents
+```
+
 ```@index
 ```
 

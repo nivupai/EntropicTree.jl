@@ -4,9 +4,12 @@ export find_subset
 greet() = "Hello World"
 greet_random() = "Hello World Random"
 # Write your package code here.
-
 """
 	find_subset(n::Int64,p,q,RV::AbstractString="X")
+```@docs
+Given `i` and `j` compute `Κ ⊆ \U1d4a9 \\{i,j}`; i.e., all non exclusive subsets. `i,j` can also be empty (i.e. []), in which case the non-empty superset gets listed. An optional prefix can be added (default is `X`).  
+#### Examples
+```
 
 Given `i` and `j` compute `Κ ⊆ \U1d4a9 \\{i,j}`; i.e., all non exclusive subsets. `i,j` can also be empty (i.e. []), in which case the non-empty superset gets listed. An optional prefix can be added (default is `X`).  
 #### Examples
